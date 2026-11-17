@@ -8,6 +8,8 @@ public class FizzBuzz {
         int n = scanner.nextInt();
         scanner.close();
 
-        System.out.println("N = " + n);
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+        }
     }
 }
